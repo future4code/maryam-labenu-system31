@@ -7,7 +7,7 @@ app.use(express.json())
 app.use(cors())
 
 app.listen(3003, ()=>{
-   console.log("Server ready!")
+   console.log("Servidor ativo na porta 3003!")
 })
 
 export default app
