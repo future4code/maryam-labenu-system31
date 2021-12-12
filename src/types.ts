@@ -1,70 +1,39 @@
-export type student = {
-   id: string,
-   nome: string,
-   email: string,
-   data_nasc: Date,
-   turma_id: string,
-   hobbies: string
-}
-
-export type teacher = {
-   id: string,
-   nome: string,
-   email: string,
-   data_nasc: Date,
-   turma_id: string,
-   especialidades: string
-}
-
+// Turmas
 export type classes = {
-   id: string,
    nome: string,
-   docentes: string,
-   estudantes: string,
-   modulo: 0
+   modulo: string,
 }
 
-export class Student {
+// Módulos
+export enum classesMod {
+   MOD0 = "Onboarding",
+   MOD1 = "Módulo 01",
+   MOD2 = "Módulo 02",
+   MOD3 = "Módulo 03",
+   MOD4 = "Módulo 04",
+   MOD5 = "Módulo 05",
+   MOD6 = "Módulo 06"
+}
+
+export class Classes {
 
    private nome: string
-   private email: string
-   private data_nasc: Date
-   turma_id: string
-   private hobbies: string
+   modulo: classesMod
 
    constructor(
       nome: string,
-      email: string,
-      data_nasc: Date,
-      turma_id: string,
-      hobbies: string
+      modulo: classesMod,
    ) {
       this.nome = nome
-      this.email = email
-      this.data_nasc = data_nasc
-      this.turma_id = turma_id
-      this.hobbies = hobbies
+      this.modulo = modulo
    }
 
    getName(): string {
       return this.nome
    }
 
-   getEmail(): string {
-      return this.email
+   public getClass(): classesMod {
+      return this.modulo
    }
 
-   getBirthDate(): Date {
-      return this.data_nasc
-   }
-
-   getClassId(): string {
-      return this.turma_id
-   }
-
-   getHobbies(): string {
-      return this.hobbies
-   }
-
-   
 }

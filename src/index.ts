@@ -1,13 +1,9 @@
 import app from "./app"
-import createStudent from "./endpoints/createStudent"
-import deleteCharacter from "./endpoints/deleteCharacter"
-import getAllCharacters from "./endpoints/getAllCharacters"
+import createClass from "./endpoints/createClass"
+import getAllClasses from './endpoints/getAllClasses'
+import updateClass from './endpoints/createClass'
 
 // Endpoints
-app.post("/student", createStudent) // Criar estudante
-app.get("/student", getStudentByName) // Buscar estudante através do nome
-app.put("/student", changeStudent) // Mudar estudante de turma
-
-app.post("/teacher", createTeacher) // Criar docente
-app.get("/teacher", getAllTeachers) // Buscar todas as pessoas docentes
-app.put("/teacher", changeTeacher) // Mudar docente de turma
+app.post("/classes", createClass) // Criar turma
+app.get("/classes", getAllClasses) // Buscar turmas ativas
+app.put("/classes/edit/:id", updateClass) // Mudar turma de módulo - Não funciona, cria uma nova turma.
