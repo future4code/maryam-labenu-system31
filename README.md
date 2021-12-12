@@ -7,16 +7,11 @@
  </p>
  
  
- <h2> ⚛️ﾠSobre</h2>
- <p>Projeto feito durante o bootcamp fullstack web da <a href="https://www.labenu.com.br/" target="_blank">Labenu</a>, turma Maryam. O Labenu System é uma simulação de um sistema que representa o básico da organização da escola contando com turmas, estudantes e docentes. Há a opção de criar as turmas, alunos e professores, além de ser possível realizar buscas específicas. Mais detalhes em breve!
-</p><br/>
- 
- 
  <h2> 👥ﾠIntegrantes</h2>
  <p>- <a href="https://github.com/mhsouza88/" target="_blank">Maria Helena V. C. de Souza</a></p><br/>
  
- <h2> 📌ﾠEndpoints</h2>
- <p>- EM BREVE</p><br/>
+ <h2> 📌ﾠPostman</h2>
+ <p>- <a href="https://documenter.getpostman.com/view/17588768/UVR5qUEx" target="_blank">Documentação</a></p><br/>
 
 
 <h2> 🛠️ﾠTecnologias</h2>
@@ -27,62 +22,8 @@
 <p> - <a href="https://knexjs.org/" target="_blank">Knex</a>: query builder que por meio de JavaScript unifica a forma de fazer querys para bancos de dados SQL.</p>
 <p> - <a href="https://expressjs.com/en/resources/middleware/cors.html" target="_blank">Cors</a>: pacote para o Node.js que fornece um middleware Connect/Express para habilitar o uso do CORS.</p>
 <p> - <a href="https://github.com/motdotla/dotenv#readme" target="_blank">DotEnv</a>: ferramenta utilizada para orquestrar as variáveis ambiente de um projeto.</p><br/>
-
-
-<h2> 🖼️ﾠImagens (clique em cima da imagem para vê-la em tamanho maior)</h2>
-<table align="center">
-  <tr>
-    <td align="center"><a href="/" target="_blank">
-      <img src="/" width="250px" alt="Imagem 01"/>
-      <br />
-      <sub><b>BREVE</b></sub>
-      <br />
-    </td>
-    <td align="center"><a href="/" target="_blank">
-      <img src="/" width="250px" alt="Imagem 02"/>
-      <br />
-      <sub><b>BREVE</b></sub>
-      <br />
-    </td>  
-    <td align="center"><a href="/" target="_blank">
-      <img src="/" width="250px" alt="Imagem 03"/>
-      <br />
-      <sub><b>BREVE</b></sub>
-      <br />
-    </td> 
-      </table>
-    <table align="center">
-    <td align="center"><a href="/" target="_blank">
-      <img src="/" width="250px" alt="Imagem 04"/>
-      <br />
-      <sub><b>BREVE</b></sub>
-      <br />
-    </td>
-    <td align="center"><a href="/" target="_blank">
-      <img src="/" width="250px" alt="Imagem 05"/>
-      <br />
-      <sub><b>BREVE</b></sub>
-      <br />
-    </td> 
-      <td align="center"><a href="/" target="_blank">
-      <img src="/" width="250px" alt="Imagem 06"/>
-      <br />
-      <sub><b>BREVE</b></sub>
-      <br />
-    </td> 
-</table>
-  <p></p>
-<br/>
-  
-  
  
-<h2> 💻ﾠPré-requisitos </h2>
-
-<p>Antes de começar você vai precisar ter instalado em sua máquina as seguintes ferramentas: o <a href="https://git-scm.com" target="_blank">Git</a> e o <a href="https://nodejs.org/en/" target="_blank">Node.js</a>.
-Além disso, é bom ter uma IDE para trabalhar com o código. Eu recomendo o <a href="https://code.visualstudio.com" target="_blank">VSCode</a>. Também recomendo o <a href="https://www.postman.com/downloads/" target="_blank">Postman</a> para testar os endpoints ou baixar o plugin do <a href="https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client" target="_blank">Thunder Client</a> para o VSCode.</p><br/>
-
-  
-
+ 
 <h2> 🚀ﾠRodando o projeto </h2>
 
 ```bash
