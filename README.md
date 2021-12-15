@@ -12,6 +12,12 @@
  
  <h2> 📌ﾠPostman</h2>
  <p>- <a href="https://documenter.getpostman.com/view/17588768/UVR5qUEx" target="_blank">Documentação</a></p><br/>
+ 
+ <h2> ❎ﾠProblemas</h2>
+ <p>- Mudar turma de módulo: Não funciona, cria uma nova turma.</p>
+ <p>- Criar estudante: Dá um erro estranho, mas cria o estudante.</p>
+ <p>- Mudar o estudante de turma: Não funciona, dá erro.</p>
+ <p>- Mudar o docente de turma: Não funciona, dá erro.</p><br/>
 
 
 <h2> 🛠️ﾠTecnologias</h2>
