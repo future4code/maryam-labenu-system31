@@ -1,6 +1,6 @@
 import { Request, Response } from "express"
-import connection from "../connection"
-import { classes } from "../types"
+import connection from "../../data/connection"
+import { Classes } from "../../data/types"
 
 export default async function getAllClasses(
    req: Request,
@@ -9,7 +9,7 @@ export default async function getAllClasses(
 
    try {
       
-      const arrayOfClasses: classes[] = await connection("TURMA").select()
+      const arrayOfClasses: Classes[] = await connection("TURMA").select()
 
       res
          .send(arrayOfClasses)
